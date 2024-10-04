@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.clear-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.clear-btn:active {
+  background-color: rgb(75, 70, 70);
+}
+
+.btns {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btns:active {
+  background-color: rgb(75, 70, 70);
+}
+
+.operator-btns {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(254, 160, 10);
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.operator-btns:active {
+  background-color: rgb(235, 176, 82);
+}
+
+.p-1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
